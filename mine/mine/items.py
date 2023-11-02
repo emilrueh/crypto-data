@@ -4,6 +4,12 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
+from itemloaders.processors import TakeFirst, MapCompose
+
+from w3lib.html import remove_tags
+import html
+
+from mine.utilities import replace_tags_with_space, decode_html_entities
 
 
 class MineItem(scrapy.Item):

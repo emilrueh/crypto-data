@@ -10,4 +10,12 @@ from itemadapter import ItemAdapter
 
 class MinePipeline:
     def process_item(self, item, spider):
+        adapter = ItemAdapter(item)
+
+        # template usage
+        # keys = ["data_key_01", "data_key_02", "data_key_03"]
+        # for key in keys:
+        #     value = adapter.get(key)
+        #     adapter[key] = value
+
         return item
