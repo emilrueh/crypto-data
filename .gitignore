@@ -1,3 +1,10 @@
+# custom
+ggl_creds.json
+notebooks/
+backups/
+# browser executable
+chromedriver.exe
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
