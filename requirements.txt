@@ -1,0 +1,7 @@
+itemadapter==0.8.0
+itemloaders==1.1.0
+python-dotenv==1.0.0
+Requests==2.31.0
+Scrapy==2.11.0
+w3lib==2.1.2
+git+https://github.com/emilrueh/scrapy-selenium_modernized.git@modernized#egg=scrapy-selenium-modernized
